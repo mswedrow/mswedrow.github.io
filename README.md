@@ -3,6 +3,7 @@ Welcome! This repository is a collection of my cybersecurity personal projects, 
 
 🔗 LinkedIn: https://linkedin.com/in/markswedrowski
 
+---------------------
 
 🚀 Key Focus Areas
 
@@ -24,22 +25,29 @@ Welcome! This repository is a collection of my cybersecurity personal projects, 
 **Mitigating Attacks**
 - Identifying and implementing fixes for discovered vulnerabilities to prevent future attacks
 
+---------------------
 
 🛠️ Tools & Environments Used
 
 **OS**
 - Kali Linux, Windows Sandbox
+  
 **Network Scanning**
 - Nmap, Nessus, Wireshark
+  
 **Penetration Testing**
 - Metasploit, Steghide, John, Hashcat, Gobuster, Dirb, Nikto, sqlmap, Burp Suite
+  
 **Networking**
 - CML, VirtualBox, Home Router
+  
 **SIEM / Logs**
 - Splunk, ELK Stack
+  
 **Analysis**
 - Ghidra, CyberChef
 
+---------------------
 
 📬 Let's Connect!
 
