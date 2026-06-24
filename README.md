@@ -1,7 +1,7 @@
 # mswedrow.github.io
 Welcome! This repository is a collection of my cybersecurity personal projects, CTF writeups, and technical deep-dives — spanning offensive security, network defense, and infrastructure design.
 
-🔗 LinkedIn: linkedin.com/in/markswedrowski
+🔗 LinkedIn: https://linkedin.com/in/markswedrowski
 
 
 🚀 Key Focus Areas
