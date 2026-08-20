@@ -1,48 +1,51 @@
 # mswedrow.github.io
-Welcome! This repository is a collection of my cybersecurity personal projects, CTF writeups, and technical deep-dives — spanning offensive security, network defense, and infrastructure design.
+Welcome! This repository is a collection of my personal cybersecurity projects, CTF writeups, and technical deep-dives — spanning offensive security, network defense, and infrastructure design.
 
 🔗 LinkedIn: https://linkedin.com/in/markswedrowski
 
 ---------------------
 
-🚀 Key Focus Areas
+Key Focus Areas
 
 **Offensive Security**
-- CTFs, Active Directory exploitation, privilege escalation, Linux exploitation, and web-based attacks
+- CTFs, Active Directory exploitation, privilege escalation, Linux exploitation, packet capture and analysis, and web-based attacks
 
-**Offensive Network Pentesting**
-- Internal network assessments, packet sniffing, man-in-the-middle (MitM) attacks, and exploiting routing protocols
+**Network Administration**
+- Implementing Active Directory Services and administrating Windows/Linux environments
 
-**Defensive Architecture**
-- Designing secure network topologies, implementing network segmentation, and configuring Zero Trust access controls
+**Network Architecture**
+- Planning and implementing secure/redundant networks in Cisco Modeling Labs (CML)
+
+**Regulatory Writeups**
+- Researching and summarizing various regulations and industry standards
 
 **Network Security & Monitoring**
 - Configuring firewalls, deploying IDS/IPS (Suricata/Snort), and monitoring network traffic for anomalies
-
-**Network Architecture**
-- Designing redundant networks using BGP and OSPF in Cisco Modeling Labs (CML)
 
 **Mitigating Attacks**
 - Identifying and implementing fixes for discovered vulnerabilities to prevent future attacks
 
 ---------------------
 
-🛠️ Tools & Environments Used
+Tools & Environments Used
 
 **OS**
-- Kali Linux, Windows Sandbox
+- Kali Linux, Windows Server 2025
   
-**Network Scanning**
+**Network Scanning and Capture**
 - Nmap, Nessus, Wireshark
   
 **Penetration Testing**
 - Metasploit, Steghide, John, Hashcat, Gobuster, Dirb, Nikto, sqlmap, Burp Suite
   
 **Networking**
-- CML, VirtualBox, Home Router
+- CML, VirtualBox, Home Lab
   
 **SIEM / Logs**
 - Splunk, ELK Stack
+
+**Automation**
+- Python, Bash
   
 **Analysis**
 - Ghidra, CyberChef
