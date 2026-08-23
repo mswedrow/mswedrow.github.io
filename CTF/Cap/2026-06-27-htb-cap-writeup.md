@@ -19,7 +19,7 @@ Cap is an easy-difficulty Linux machine hosting an HTTP server with network traf
 
 - Gobuster
 - Ffuf
-- `getcap`
+- getcap
 
 ---
 
@@ -73,11 +73,11 @@ ssh nathan@10.129.38.186
 # password: Buck3tH4TF0RM3!
 ```
 
-![SSH](assets/images/cap/SSH.png)
+![SSH](/assets/images/cap/SSH.png)
 
 From here, `user.txt` is accessible in Nathan's home directory.
 
-![Flag](assets/images/cap/Ls.png)
+![Flag](/assets/images/cap/Ls.png)
 
 ---
 
@@ -93,7 +93,7 @@ getcap -r / 2>/dev/null
 
 The `-r /` flag is used to search recursively from the root directory, and the `2>/dev/null` removes all error messages to clean up the output.
 
-![Getcap](assets/images/cap/GetCap.png)
+![Getcap](/assets/images/cap/GetCap.png)
 
 The `cap_setuid` capability allows a process to arbitrarily change its user ID — including to `0` (root).
 
@@ -105,7 +105,7 @@ Confirm Nathan can execute the binary:
 ls -al /usr/bin/python2.8
 ```
 
-![Permissions](assets/images/Ls-al.png)
+![Permissions](/assets/images/Ls-al.png)
 
 Then abuse the capability:
 
@@ -116,11 +116,11 @@ Then abuse the capability:
 - `os.setuid(0)` — sets the process UID to root
 - `pty.spawn('/bin/bash')` — spawns an interactive bash shell
 
-![Python](assets/images/cap/Python.png)
+![Python](/assets/images/cap/Python.png)
 
 The prompt changes to `root@cap`, confirming full privilege escalation. `root.txt` is accessible under `/root/`.
 
-![RootFlag](assets/images/cap/Root.png)
+![RootFlag](/assets/images/cap/Root.png)
 
 ---
 
@@ -143,4 +143,4 @@ The prompt changes to `root@cap`, confirming full privilege escalation. `root.tx
 
 The web server also exposes directory listings for `netstat` and `ip` endpoints, which output the results of the corresponding Linux commands — leaking IP addressing and socket connection data publicly. Directory indexing should be disabled and these endpoints removed or access-controlled.
 
-![Gobuster](assets/images/cap/Gobuster.png)
+![Gobuster](/assets/images/cap/Gobuster.png)
