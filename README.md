@@ -52,6 +52,6 @@ Tools & Environments Used
 
 ---------------------
 
-📬 Let's Connect!
+Let's Connect!
 
 Have questions about a write-up, or want to collaborate? Feel free to reach out on LinkedIn.
