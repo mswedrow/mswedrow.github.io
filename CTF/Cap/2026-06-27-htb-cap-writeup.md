@@ -105,7 +105,7 @@ Confirm Nathan can execute the binary:
 ls -al /usr/bin/python2.8
 ```
 
-![Permissions](/assets/images/Ls-al.png)
+![Permissions](/assets/images/cap/Ls-al.png)
 
 Then abuse the capability:
 
