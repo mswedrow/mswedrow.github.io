@@ -31,13 +31,13 @@ We start with an nmap port scan to identify open services:
 
 ![nmap scan](/assets/images/cap/Nmap.png)
 
-Three ports are open: `21` (FTP), `22` (SSH), and `80` (HTTP). Task 2 directs us to the website on port 80, which is accessible at the IP address of the box on port 80.
+Three ports are open: `21` (FTP), `22` (SSH), and `80` (HTTP). Task 2 directs us to the website on port 80, which is accessible at the IP address of the box on the browser.
 
 ![Dashboard](/assets/images/cap/Dashboard.png)
 
 ### IDOR — Accessing Another User's Capture
 
-Clicking on the three-lined menu at the tope left of the site reveals a "Security Snapshot" feature.
+Clicking on the three-lined menu at the top left of the site reveals a "Security Snapshot" feature.
 
 ![Sidebar](/assets/images/cap/Sidebar.png)
 
